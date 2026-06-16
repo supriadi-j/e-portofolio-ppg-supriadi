@@ -292,34 +292,6 @@
                     </div>
                 </div>
 
-                <!-- Scope of Portfolio -->
-                <div class="max-w-5xl mx-auto px-6 md:px-12 mb-16">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300">
-                            <div class="w-12 h-12 rounded-xl bg-teal-50 text-primary flex items-center justify-center text-xl mb-4">
-                                <i class="fas fa-file-signature"></i>
-                            </div>
-                            <h3 class="text-lg font-bold text-slate-800 mb-2">1. Perencanaan</h3>
-                            <p class="text-sm text-slate-600 leading-relaxed">RPL Bimbingan Klasikal pada berbagai topik yang disusun menggunakan asesmen kebutuhan dan pendekatan inovatif.</p>
-                        </div>
-                        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300">
-                            <div class="w-12 h-12 rounded-xl bg-teal-50 text-primary flex items-center justify-center text-xl mb-4">
-                                <i class="fas fa-camera"></i>
-                            </div>
-                            <h3 class="text-lg font-bold text-slate-800 mb-2">2. Pelaksanaan</h3>
-                            <p class="text-sm text-slate-600 leading-relaxed">Dokumentasi pelaksanaan layanan dan konseling sebagai bukti penguasaan keterampilan dasar BK.</p>
-                        </div>
-                        <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300">
-                            <div class="w-12 h-12 rounded-xl bg-teal-50 text-primary flex items-center justify-center text-xl mb-4">
-                                <i class="fas fa-chart-pie"></i>
-                            </div>
-                            <h3 class="text-lg font-bold text-slate-800 mb-2">3. Evaluasi</h3>
-                            <p class="text-sm text-slate-600 leading-relaxed">Analisis hasil instrumen evaluasi proses & hasil beserta refleksi untuk perbaikan berkelanjutan.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- =================== PROFIL & FILOSOFI =================== -->
             <div id="page-profil" class="page-content hidden fade-in max-w-4xl mx-auto px-6 md:px-8 pt-10">
                 <div class="mb-8">
@@ -880,68 +852,76 @@
                         </a>
                     </div>
 
-                    <!-- 3. Lembar Penilaian Penyusunan Perangkat Layanan oleh Guru Pamong -->
-                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 border-t-4 border-t-teal-700">
-                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-3 border-b border-slate-100">
-                            <div>
-                                <h3 class="text-xl font-bold text-slate-800 flex items-center gap-2">
-                                    <i class="fas fa-file-invoice text-primary"></i> 3. Lembar Penilaian Penyusunan Perangkat Layanan
-                                </h3>
-                                <p class="text-xs text-slate-500 mt-1">Penilai: Hj. Nurhana, S.Pd., M.Pd (Guru Pamong)</p>
+                    <!-- =================== 3. LEMBAR PENILAIAN PERANGKAT LAYANAN =================== -->
+                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 border-t-4 border-t-teal-700 mb-6">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                            <div class="flex items-start gap-4">
+                                <!-- Ikon Berkas Kreatif -->
+                                <div class="w-12 h-12 rounded-xl bg-teal-50 text-primary flex items-center justify-center text-2xl shrink-0 border border-teal-100 shadow-sm">
+                                    <i class="fas fa-file-invoice"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-slate-800 leading-tight">
+                                        3. Lembar Penilaian Penyusunan Perangkat Layanan
+                                    </h3>
+                                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+                                        <span class="font-medium text-slate-700">Penilai:</span> Hj. Nurhana, S.Pd., M.Pd (Guru Pamong) <br class="md:hidden"/>
+                                        <span class="hidden md:inline class="mx-2"">|</span> 
+                                        <span class="font-medium text-slate-700">Objek:</span> RPL BK, Media Canva, & LKPD (Siklus 1-3)
+                                    </p>
+                                </div>
                             </div>
-                            <!-- Badge Nilai Akhir -->
-                            <div class="bg-teal-50 border border-teal-200 rounded-xl px-4 py-2 text-center shrink-0">
-                                <span class="text-xs text-slate-500 block font-medium">Nilai Akhir Perangkat</span>
-                                <span class="text-xl font-extrabold text-primary">[84.58] / <span class="text-xs font-semibold text-slate-500">Baik</span></span>
+        
+                            <!-- Badge Nilai Akhir & Tombol Akses Langsung -->
+                            <div class="flex items-center gap-4 ml-16 md:ml-0 flex-wrap md:flex-nowrap">
+                                <!-- Nilai -->
+                                <div class="bg-teal-50 border border-teal-200 rounded-xl px-4 py-2 text-center shrink-0 min-w-[120px]">
+                                    <span class="text-[10px] text-slate-500 block font-bold uppercase tracking-wider mb-0.5">Nilai Perangkat</span>
+                                    <span class="text-base font-extrabold text-primary">[84.58] <span class="text-[10px] font-semibold text-slate-500">/ Baik</span></span>
+                                </div>
+                                <!-- Tombol Unduh / Akses -->
+                                <a href="#" target="_blank" class="inline-flex items-center text-sm font-bold text-white bg-primary hover:bg-teal-800 transition px-5 py-3 rounded-xl shadow-md shadow-teal-100 group">
+                                    <i class="fas fa-file-pdf mr-2 text-base group-hover:scale-110 transition-transform"></i> Lihat & Unduh Hasil Penilaian
+                                </a>
                             </div>
-                        </div>
-
-                        <p class="text-sm text-slate-600 mb-4">
-                            Dokumen di bawah ini menampilkan lembar instrumen penilaian autentik terhadap perangkat layanan BK (RPL, Media, dan LKPD) yang telah disahkan:
-                        </p>
-
-                        <!-- CONTAINER EMBED PDF PERANGKAT -->
-                        <div class="w-full bg-slate-100 rounded-xl border border-slate-200 overflow-hidden shadow-inner relative" style="height: 550px;">
-                            <!-- GANTI LINK /preview DI BAWAH INI DENGAN LINK GOOGLE DRIVE ANDA -->
-                            <iframe
-                                src="#" 
-                                class="w-full h-full border-none" 
-                                allow="autoplay">
-                            </iframe>
                         </div>
                     </div>
 
-                    <!-- 4. Lembar Penilaian Praktik Layanan oleh Guru Pamong -->
-                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 border-t-4 border-t-amber-500">
-                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 pb-3 border-b border-slate-100">
-                            <div>
-                                <h3 class="text-xl font-bold text-slate-800 flex items-center gap-2">
-                                    <i class="fas fa-chalkboard-teacher text-accent"></i> 4. Lembar Penilaian Praktik Layanan (Mengajar)
-                                </h3>
-                                <p class="text-xs text-slate-500 mt-1">Lokasi PPL: Kelas VII MTs Negeri 1 Kota Makassar</p>
+                    <!-- =================== 4. LEMBAR PENILAIAN PRAKTIK LAYANAN =================== -->
+                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 border-t-4 border-t-amber-500 mb-6">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                            <div class="flex items-start gap-4">
+                                <!-- Ikon Mengajar Klasikal -->
+                                <div class="w-12 h-12 rounded-xl bg-amber-50 text-accent flex items-center justify-center text-2xl shrink-0 border border-amber-100 shadow-sm">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-slate-800 leading-tight">
+                                        4. Lembar Penilaian Praktik Layanan (Mengajar)
+                                    </h3>
+                                    <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+                                        <span class="font-medium text-slate-700">Lokasi:</span> Ruang Kelas VII MTs Negeri 1 Kota Makassar <br class="md:hidden"/>
+                                        <span class="hidden md:inline class="mx-2"">|</span> 
+                                        <span class="font-medium text-slate-700">Fokus:</span> Performa Klasikal Terbimbing & Kompetensi TPACK
+                                    </p>
+                                </div>
                             </div>
-                            <!-- Badge Nilai Akhir -->
-                            <div class="bg-amber-50 border border-amber-200 rounded-xl px-4 py-2 text-center shrink-0">
-                                <span class="text-xs text-slate-500 block font-medium">Nilai Akhir Praktik</span>
-                                <span class="text-xl font-extrabold text-accent">[85.00] / <span class="text-xs font-semibold text-slate-500">Baik</span></span>
+        
+                            <!-- Badge Nilai Akhir & Tombol Akses Langsung -->
+                            <div class="flex items-center gap-4 ml-16 md:ml-0 flex-wrap md:flex-nowrap">
+                                <!-- Nilai -->
+                                <div class="bg-amber-50 border border-amber-200 rounded-xl px-4 py-2 text-center shrink-0 min-w-[120px]">
+                                    <span class="text-[10px] text-amber-700 block font-bold uppercase tracking-wider mb-0.5">Nilai Praktik</span>
+                                    <span class="text-base font-extrabold text-accent">[85.00] <span class="text-[10px] font-semibold text-slate-500">/ Sangat Baik</span></span>
+                                </div>
+                                <!-- Tombol Unduh / Akses -->
+                                <a href="#" target="_blank" class="inline-flex items-center text-sm font-bold text-slate-900 bg-amber-100 hover:bg-amber-200 transition px-5 py-3 rounded-xl shadow-md shadow-amber-100 group">
+                                    <i class="fas fa-file-pdf text-amber-600 mr-2 text-base group-hover:scale-110 transition-transform"></i> Lihat & Unduh Hasil Penilaian
+                                </a>
                             </div>
-                        </div>
-
-                        <p class="text-sm text-slate-600 mb-4">
-                            Dokumen di bawah ini menampilkan lembar observasi performa praktik layanan klasikal terbimbing oleh Guru Pamong secara langsung:
-                        </p>
-
-                        <!-- CONTAINER EMBED PDF PRAKTIK -->
-                        <div class="w-full bg-slate-100 rounded-xl border border-slate-200 overflow-hidden shadow-inner relative" style="height: 550px;">
-                            <!-- GANTI LINK /preview DI BAWAH INI DENGAN LINK GOOGLE DRIVE ANDA -->
-                            <iframe 
-                                src="#" 
-                                class="w-full h-full border-none" 
-                                allow="autoplay">
-                            </iframe>
                         </div>
                     </div>
-
+                    
                     <!-- RTL -->
                     <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 border-t-4 border-t-teal-400">
                         <h3 class="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
